@@ -8,7 +8,7 @@ class BinaryToDecimal
         System.out.println("enter the decimal number");
         int num=sc.nextInt();
         String s="\t";
-        while(num>1||num>0)
+        while(num>0)
         {
             rem=num%2; 
             num=num/2;

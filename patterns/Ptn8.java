@@ -1,10 +1,11 @@
+//butterfly
 import java.util.Scanner;
 class Ptn8{
     public static void main(String[] args) {
-        int stars=1;
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number of rows");
         int n=sc.nextInt();
+        int stars=1;
         int spaces=n-2;
         for(int i=1;i<=n;i++){
             if(i==n/2+1){

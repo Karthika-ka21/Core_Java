@@ -11,7 +11,7 @@ class Ptn13
         int stars=n;
         for(int i=1;i<=n;i++)
         {
-           if(i<(n/2)+1){
+           if(i<=(n/2)){
             for(int j=0;j<i-1;j++){
                 System.out.print(" "+" ");
             }

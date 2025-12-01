@@ -1,4 +1,5 @@
- import java.util.Scanner;
+//diomond
+import java.util.Scanner;
 class Ptn7{
     public static void main(String[] args){
         int n,stars=1,spaces=1;
