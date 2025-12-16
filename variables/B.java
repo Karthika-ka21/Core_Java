@@ -1,4 +1,4 @@
-package variables;
+
  class Book{
     String tittle;
     String author;
