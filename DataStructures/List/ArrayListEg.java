@@ -3,7 +3,29 @@ import java.util.Iterator;
 import java.util.Scanner;
 class ArrayListEg{
     public static void main(String[] args){
-        // Scanner sc=new Scanner(System.in);
+
+        MyArrayList arr=new MyArrayList();
+        arr.add(10);
+        arr.add(11);
+        arr.add(1);
+        arr.add(18);
+        arr.add(9);
+        arr.add(8);
+        arr.add(7);
+        arr.add(6);
+        System.out.println(arr);
+        // System.out.println(arr.get(8)); IndexOutOfBoundsException
+        System.out.println(arr.get(3));
+        arr.add(2,5);
+        System.out.println(arr);
+        System.out.println(arr.get(8));
+        arr.remove(5);
+        System.out.println(arr);
+        arr.clear();
+        System.out.println(arr);
+        
+
+      /*   // Scanner sc=new Scanner(System.in);
         // System.out.println("enter the number of elements");
         // int n=sc.nextInt();
         // sc.nextLine();
@@ -36,5 +58,6 @@ class ArrayListEg{
         // itr.next(); NoSuchElementException
         
         //System.out.println(a.get(a.size()-1) instanceof Character );
+        */
     }
 }
