@@ -24,6 +24,7 @@ public class LinkedListEg {
         l.set(2,35);
         System.out.println(l);
         System.out.println(l.size());
+        l.reverse();
        
         
         //LinkedList<String> l=new LinkedList<String>();

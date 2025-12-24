@@ -64,9 +64,12 @@ public class MyLinkedList {
     for(int i=1;i<index;i++){
         curr=curr.next;
     }
+    
     curr.next=curr.next.next;
     if(curr.next!=null)
         curr.next.prev=curr;
+    else
+        last=curr;
     count--;
    }
    public void reverse(){
